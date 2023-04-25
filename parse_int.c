@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 
 /**
  * parse_int - substitute %i by argument number
