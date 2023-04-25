@@ -7,11 +7,12 @@
  */
 void print_buffer(char buffer[], int *buff_ind)
 {
-        if (*buff_ind > 0)
-                write(1, &buffer[0], *buff_ind);
-        *buff_ind = 0;
+	if (*buff_ind > 0)
+		write(1, &buffer[0], *buff_ind);
+	*buff_ind = 0;
 }
-/**_printf - printf function that produces output to a format
+/**
+ * _printf - Printf function that produces output to a format
  * @format: the format under consideration
  * Return: the characters being printed.
  */
